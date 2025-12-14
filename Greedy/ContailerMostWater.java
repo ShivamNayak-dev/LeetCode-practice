@@ -8,7 +8,7 @@ class ContailerMostWater {
             int minHeight = Math.min(height[left], height[right]);
             maxArea = Math.max(maxArea, width * minHeight);
 
-            // Move the pointer with the smaller height
+            
             if (height[left] < height[right]) {
                 left++;
             } else {
